@@ -1,4 +1,0 @@
-repository "Fractured Minds@cubeworks7@cloud"
-  path "/"
-    br "/main"
-    co "/main"
