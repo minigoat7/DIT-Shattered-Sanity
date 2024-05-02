@@ -1,16 +1,17 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16084 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16010 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1-x86_64\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<<< Updated upstream:code/Logs/AssetImportWorker0.log
 C:/Users/Fletcher/Documents/GitHub/code
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,6 +19,15 @@ Logs/AssetImportWorker0.log
 59511
 Successfully changed project path to: C:/Users/Fletcher/Documents/GitHub/code
 C:/Users/Fletcher/Documents/GitHub/code
+========
+C:/digital/DIT-Fractured-Minds/Fractured Minds
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55047
+Successfully changed project path to: C:/digital/DIT-Fractured-Minds/Fractured Minds
+C:/digital/DIT-Fractured-Minds/Fractured Minds
+>>>>>>>> Stashed changes:Fractured Minds/Logs/AssetImportWorker0.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +59,7 @@ C:/Users/Fletcher/Documents/GitHub/code
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<<< Updated upstream:code/Logs/AssetImportWorker0.log
 Player connection [7612] Host "[IP] 192.168.99.233 [Port] 0 [Flags] 2 [Guid] 3307787983 [EditorId] 3307787983 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQ0UKJB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [7612] Host "[IP] 192.168.99.233 [Port] 0 [Flags] 2 [Guid] 3307787983 [EditorId] 3307787983 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQ0UKJB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -59,14 +70,27 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Fletcher/Documents/GitHub/code/Assets
+========
+Player connection [6268] Host "[IP] 192.168.100.245 [Port] 0 [Flags] 2 [Guid] 2718214099 [EditorId] 2718214099 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SKNLFMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6268] Host "[IP] 192.168.100.245 [Port] 0 [Flags] 2 [Guid] 2718214099 [EditorId] 2718214099 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SKNLFMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 16.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/digital/DIT-Fractured-Minds/Fractured Minds/Assets
+>>>>>>>> Stashed changes:Fractured Minds/Logs/AssetImportWorker0.log
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
-    Vendor:   Intel
-    VRAM:     8042 MB
-    Driver:   31.0.101.3222
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5935 MB
+    Driver:   31.0.15.2896
 Initialize mono
+<<<<<<<< Updated upstream:code/Logs/AssetImportWorker0.log
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
@@ -83,10 +107,27 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.375 seconds
 Domain Reload Profiling: 826ms
 	BeginReloadAssembly (139ms)
+========
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.042007 seconds.
+- Loaded All Assemblies, in  2.001 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.071 seconds
+Domain Reload Profiling: 4064ms
+	BeginReloadAssembly (558ms)
+>>>>>>>> Stashed changes:Fractured Minds/Logs/AssetImportWorker0.log
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<<< Updated upstream:code/Logs/AssetImportWorker0.log
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (40ms)
 	RebuildNativeTypeToScriptingClass (14ms)
@@ -110,6 +151,31 @@ Domain Reload Profiling: 826ms
 			BeforeProcessingInitializeOnLoad (3ms)
 			ProcessInitializeOnLoadAttributes (204ms)
 			ProcessInitializeOnLoadMethodAttributes (66ms)
+========
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (190ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (297ms)
+	LoadAllAssembliesAndSetupDomain (893ms)
+		LoadAssemblies (550ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (885ms)
+			TypeCache.Refresh (877ms)
+				TypeCache.ScanAssembly (809ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (2072ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1604ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (89ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (21ms)
+			ProcessInitializeOnLoadAttributes (1069ms)
+			ProcessInitializeOnLoadMethodAttributes (352ms)
+>>>>>>>> Stashed changes:Fractured Minds/Logs/AssetImportWorker0.log
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,22 +183,34 @@ Domain Reload Profiling: 826ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<<< Updated upstream:code/Logs/AssetImportWorker0.log
 - Loaded All Assemblies, in  0.790 seconds
 Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
 Native extension for UWP target not found
+========
+- Loaded All Assemblies, in  1.518 seconds
+Refreshing native plugins compatible for Editor in 8.53 ms, found 3 plugins.
+>>>>>>>> Stashed changes:Fractured Minds/Logs/AssetImportWorker0.log
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<<< Updated upstream:code/Logs/AssetImportWorker0.log
 - Finished resetting the current domain, in  0.875 seconds
 Domain Reload Profiling: 1662ms
 	BeginReloadAssembly (194ms)
+========
+- Finished resetting the current domain, in  2.350 seconds
+Domain Reload Profiling: 3865ms
+	BeginReloadAssembly (334ms)
+>>>>>>>> Stashed changes:Fractured Minds/Logs/AssetImportWorker0.log
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<<< Updated upstream:code/Logs/AssetImportWorker0.log
 		CreateAndSetChildDomain (26ms)
 	RebuildCommonClasses (43ms)
 	RebuildNativeTypeToScriptingClass (14ms)
@@ -149,10 +227,29 @@ Domain Reload Profiling: 1662ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (701ms)
+========
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (993ms)
+		LoadAssemblies (711ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (480ms)
+			TypeCache.Refresh (417ms)
+				TypeCache.ScanAssembly (371ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1764ms)
+>>>>>>>> Stashed changes:Fractured Minds/Logs/AssetImportWorker0.log
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (19ms)
 			RefreshPlugins (0ms)
+<<<<<<<< Updated upstream:code/Logs/AssetImportWorker0.log
 			BeforeProcessingInitializeOnLoad (75ms)
 			ProcessInitializeOnLoadAttributes (571ms)
 			ProcessInitializeOnLoadMethodAttributes (27ms)
@@ -167,6 +264,22 @@ Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3553.
 Memory consumption went from 123.0 MB to 122.9 MB.
 Total: 3.765900 ms (FindLiveObjects: 0.373200 ms CreateObjectMapping: 0.132900 ms MarkObjects: 3.164000 ms  DeleteObjects: 0.094500 ms)
+========
+			BeforeProcessingInitializeOnLoad (256ms)
+			ProcessInitializeOnLoadAttributes (1376ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3554.
+Memory consumption went from 123.1 MB to 123.0 MB.
+Total: 4.535000 ms (FindLiveObjects: 0.229800 ms CreateObjectMapping: 0.093500 ms MarkObjects: 4.014600 ms  DeleteObjects: 0.195500 ms)
+>>>>>>>> Stashed changes:Fractured Minds/Logs/AssetImportWorker0.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,10 +296,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<<< Updated upstream:code/Logs/AssetImportWorker0.log
   Time since last request: 252728.075950 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
  -> (artifact id: '12f7fd6af1cb40d5a0b3fe7e5a95854b') in 0.073032 seconds
+========
+  Time since last request: 1487922.825506 seconds.
+  path: Assets/test].cs
+  artifactKey: Guid(ab760d8e98e16964d91ab2df9c599f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test].cs using Guid(ab760d8e98e16964d91ab2df9c599f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff2b2e314ce8e2571bb809e9218bc6a') in 0.007707 seconds
+>>>>>>>> Stashed changes:Fractured Minds/Logs/AssetImportWorker0.log
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1

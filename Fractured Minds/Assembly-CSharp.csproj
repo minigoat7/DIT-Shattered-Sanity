@@ -59,15 +59,22 @@
     <UnityVersion>2022.3.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Analyzer Include="C:\Users\qperc\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+=======
+>>>>>>> Stashed changes
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1-x86_64\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1-x86_64\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\playermovementperchance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Asets\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
+=======
+    <Compile Include="Assets\test].cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
