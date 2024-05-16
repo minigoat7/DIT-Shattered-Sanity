@@ -1,4 +1,0 @@
-repository "Shattered Sanity@cubeworks7@cloud"
-  path "/"
-    br "/main"
-    co "/main"
